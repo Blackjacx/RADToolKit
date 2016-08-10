@@ -10,9 +10,9 @@ PODS:
     - Nimble
     - Quick
   - Quick (0.9.3)
-  - RADToolKit (0.1.0):
-    - UIApplicationDelegate-Versioning
-  - UIApplicationDelegate-Versioning (0.9.0)
+  - RADToolKit (0.9.0):
+    - UIApplication-Versioning
+  - UIApplication-Versioning (0.9.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -30,8 +30,8 @@ SPEC CHECKSUMS:
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
   Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
-  RADToolKit: 5d5e1823fe5eb8810b7725dcb82d4fef0a07a06c
-  UIApplicationDelegate-Versioning: eff5468bd4239eda07af571eddeb33dbcb6478a3
+  RADToolKit: d9c0dd21eb6580af1c5509dcd0101835c8ae6135
+  UIApplication-Versioning: 77977c54b3954858fafeda24dff61af2a3431757
 
 PODFILE CHECKSUM: 416931ea4cb5cf4bc07d1987a5300021e589ddb8
 

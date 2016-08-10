@@ -38,5 +38,5 @@ Tired of creating all the boilerplate code from scratch every time you start a n
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'UIApplicationDelegate-Versioning'
+  s.dependency 'UIApplication-Versioning'
 end
