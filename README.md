@@ -28,6 +28,12 @@ pod "RADToolKit"
 
 Stefan Herold, stefan.herold@gmai.com
 
+## Components
+
+### UIApplication+Versioning
+
+The extension on UIApplication provides you with a method to obtain the version string from the Info.plist dictionary. To obtain a only the version (without the build number) just set the parameter includeBuildNumber to false.
+
 ## License
 
 RADToolKit is available under the MIT license. See the LICENSE file for more info.
