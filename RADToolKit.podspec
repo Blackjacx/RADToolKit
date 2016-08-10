@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RADToolKit'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = 'Tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers.'
 
 # This description is used to generate tags and improve search results.
