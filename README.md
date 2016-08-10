@@ -26,7 +26,7 @@ pod "RADToolKit"
 
 ## Author
 
-Stefan Herold, stefan.herold@gmai.com
+Stefan Herold, stefan.herold@gmail.com
 
 ## Components
 
