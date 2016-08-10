@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/RADToolKit.svg?style=flat)](http://cocoapods.org/pods/RADToolKit)
 [![Platform](https://img.shields.io/cocoapods/p/RADToolKit.svg?style=flat)](http://cocoapods.org/pods/RADToolKit)
 
+Tired of creating all the boilerplate code from scratch every time you start a new project? Here is your solution. A tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers. Start your Rapid Application Development NOW and be lightning fast with RADToolKit.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+This project requires `iOS 8` or higher.
 
 ## Installation
 
@@ -22,7 +26,7 @@ pod "RADToolKit"
 
 ## Author
 
-Stefan Herold, stefan.herold@gmail.com
+Stefan Herold, stefan.herold@gmai.com
 
 ## License
 
