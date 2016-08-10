@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import UIApplication_Versioning
+import RADToolKit
 
 class ViewController: UIViewController {
 

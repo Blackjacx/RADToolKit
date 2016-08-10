@@ -1,6 +1,6 @@
 //
 //  UIApplication+Versioning.swift
-//  UIApplication+Versioning
+//  RADToolKit
 //
 //  Created by Stefan Herold on 10/08/16.
 //
