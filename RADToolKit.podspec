@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RADToolKit'
   s.version          = '0.9.0'
-  s.summary          = 'Tired of creating all the boilerplate code from scratch every time you start a new project? Here is your solution. A tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers. Start your Rapid Application Development NOW and be lightning fast with RADToolKit.'
+  s.summary          = 'Tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
