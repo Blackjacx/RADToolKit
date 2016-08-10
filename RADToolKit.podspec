@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RADToolKit'
-  s.version          = '0.9.1'
+  s.version          = '0.9.2'
   s.summary          = 'Tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers.'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ Tired of creating all the boilerplate code from scratch every time you start a n
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'UIApplication-Versioning'
+  # s.dependency 'AFNetworking', '~>2.0'
 end
