@@ -8,15 +8,15 @@
 
 import UIKit
 
-extension UIApplication {
-    public class func appVersionString(includeBuildNumber: Bool = true) -> String {
+extension NSBundle {
+    public func versionString(includeBuildNumber: Bool = true) -> String {
         var components = [String]()
 
-        if let marketingVersion = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleShortVersionString") {
+        if let marketingVersion = objectForInfoDictionaryKey("CFBundleShortVersionString") as? String {
             components.append("\(marketingVersion)")
         }
         if includeBuildNumber {
-            if let buildNumber = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleVersion") {
+            if let buildNumber = objectForInfoDictionaryKey(kCFBundleVersionKey as String) as? String {
                 components.append("(\(buildNumber))")
             }
         }

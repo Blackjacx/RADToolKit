@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("App Version: \(UIApplication.appVersionString())")
-        print("App Version without build number: \(UIApplication.appVersionString(false))")
+        print("App Version: \(NSBundle.mainBundle().versionString())")
+        print("App Version without build number: \(NSBundle.mainBundle().versionString(false))")
     }
 
 }
