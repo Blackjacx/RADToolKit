@@ -1,4 +1,4 @@
-platform :ios, '9.3'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'RADToolKit_Example' do
@@ -17,9 +17,9 @@ end
 post_install do |options|
     options.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-            #            swift4_blacklist = []
-            #            product_name = config.build_settings['PRODUCT_NAME']
-            #            config.build_settings['SWIFT_VERSION'] = '3.2' if swift4_blacklist.include? product_name
+#            swift4_blacklist = []
+#            product_name = config.build_settings['PRODUCT_NAME']
+#            config.build_settings['SWIFT_VERSION'] = '3.2' if swift4_blacklist.include? product_name
             if config.name == "Release"
                 config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Owholemodule'
                 else

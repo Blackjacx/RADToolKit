@@ -11,7 +11,7 @@ Tired of creating all the boilerplate code from scratch every time you start a n
   s.author           = { 'Stefan Herold' => 'stefan.herold@gmail.com' }
   s.source           = { :git => 'https://github.com/blackjacx/RADToolKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RADToolKit/Classes/**/*'
   
