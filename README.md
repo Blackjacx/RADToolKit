@@ -1,39 +1,62 @@
-# RADToolKit
 
-[![CI Status](http://img.shields.io/travis/Stefan Herold/RADToolKit.svg?style=flat)](https://travis-ci.org/Stefan Herold/RADToolKit)
-[![Version](https://img.shields.io/cocoapods/v/RADToolKit.svg?style=flat)](http://cocoapods.org/pods/RADToolKit)
-[![License](https://img.shields.io/cocoapods/l/RADToolKit.svg?style=flat)](http://cocoapods.org/pods/RADToolKit)
-[![Platform](https://img.shields.io/cocoapods/p/RADToolKit.svg?style=flat)](http://cocoapods.org/pods/RADToolKit)
+<!-- <p align="center">
+<img src="./icon.png" alt="RADToolKit" height="128" width="128">
+</p> -->
 
-Tired of creating all the boilerplate code from scratch every time you start a new project? Here is your solution. A tool set that implements all the functionality needed to create a basic app in only one week that will impress your customers. Start your Rapid Application Development NOW and be lightning fast with RADToolKit.
+<h1 align="center">RADToolKit</h1>
+
+<p align="center">
+  <!-- <a href="https://github.com/Blackjacx/RADToolKit"><img alt="Build Status" src="https://www.bitrise.io/app/582435533da6e6e8/status.svg?token=txPO2FVRfVTh3wS57eoOuw&branch=develop"/></a> -->
+  <a href="http://cocoadocs.org/docsets/RADToolKit"><img alt="Version" src="https://cocoapod-badges.herokuapp.com/v/RADToolKit/badge.svg"/></a>
+  <img alt="Xcode 9.0+" src="https://img.shields.io/badge/Xcode-9.0%2B-blue.svg"/>
+  <img alt="iOS 8.0+" src="https://img.shields.io/badge/iOS-8.0%2B-blue.svg"/>
+  <img alt="Swift 4.0+" src="https://img.shields.io/badge/Swift-4.0%2B-orange.svg"/>
+  <!-- <a href="https://github.com/Carthage/Carthage"><img alt="Carthage compatible" src="https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat"/></a> -->
+  <a href="https://github.com/Blackjacx/RADToolKit/blob/master/LICENSE?raw=true"><img alt="License" src="https://img.shields.io/cocoapods/l/RADToolKit.svg?style=flat"/></a>
+  <!-- <a href="https://codecov.io/gh/blackjacx/RADToolKit"><img alt="Codecov" src="https://codecov.io/gh/blackjacx/RADToolKit/branch/master/graph/badge.svg"/></a> -->
+  <a href="https://codebeat.co/projects/github-com-blackjacx-radtoolkit"><img alt="Codebeat" src="https://codebeat.co/badges/44539071-5029-4379-9d33-99dd721915c8" /></a>
+  <a href="http://cocoadocs.org/docsets/RADToolKit/"><img alt="Downloads" src="https://img.shields.io/cocoapods/dt/RADToolKit.svg?maxAge=3600&style=flat" /></a>
+  <a href="https://www.paypal.me/STHEROLD"><img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg"/></a>
+</p>
+
+Tired of creating all the boilerplate code from scratch every time you start a 
+new project? Here is your solution. A tool set that implements all the 
+functionality needed to create a basic app in only one week that will impress 
+your customers. Start your Rapid Application Development NOW and be lightning 
+fast with RADToolKit.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-This project requires `iOS 8` or higher.
+To run the example project, just type `pod try RADToolKit` in your console.
 
 ## Installation
 
-RADToolKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+RADToolKit is compatible with `iOS 8.0` or higher and builds with `Xcode 9` 
+and `Swift 4` syntax. It is available through [CocoaPods](http://cocoapods.org). 
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "RADToolKit"
 ```
 
+## Components
+
+### Bundle+Versioning
+
+The `Bundle` extension provides you with functions to obtain information like 
+versionString and appName which is specified in the Info.plist.
+
+## Contribution
+
+- If you found a **bug**, open an **issue**
+- If you have a **feature request**, open an **issue**
+- If you want to **contribute**, submit a **pull request**
+
 ## Author
 
 Stefan Herold, stefan.herold@gmail.com
 
-## Components
-
-### UIApplication+Versioning
-
-The extension on UIApplication provides you with a method to obtain the version string from the Info.plist dictionary. To obtain a only the version (without the build number) just set the parameter includeBuildNumber to false.
-
 ## License
 
-RADToolKit is available under the MIT license. See the LICENSE file for more info.
+RADToolKit is available under the MIT license. See the LICENSE file for more 
+info.
