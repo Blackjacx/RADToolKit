@@ -16,6 +16,7 @@
 		B121DE6953ACED00C76E4E4F /* Pods_RADToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770ECFED30931B775B630F0F /* Pods_RADToolKit_Tests.framework */; };
 		B99EBACC2055CE7B00A24DCB /* UserDefaults+Extensions_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBACA2055CD6E00A24DCB /* UserDefaults+Extensions_Spec.swift */; };
 		B99EBAD82055E0A700A24DCB /* NSAttributesString+Extensions_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBAD62055E01000A24DCB /* NSAttributesString+Extensions_Spec.swift */; };
+		B99EBADE2055E59F00A24DCB /* String+Extensions_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBADC2055E59C00A24DCB /* String+Extensions_Spec.swift */; };
 		FEF9DD115EC37DB87C28CA37 /* Pods_RADToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F16DEE4FE73B1BF5277197D /* Pods_RADToolKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		B99EBACA2055CD6E00A24DCB /* UserDefaults+Extensions_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions_Spec.swift"; sourceTree = "<group>"; };
 		B99EBACD2055DE3B00A24DCB /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
 		B99EBAD62055E01000A24DCB /* NSAttributesString+Extensions_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributesString+Extensions_Spec.swift"; sourceTree = "<group>"; };
+		B99EBADC2055E59C00A24DCB /* String+Extensions_Spec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions_Spec.swift"; sourceTree = "<group>"; };
 		B9E14E731D5BAD910080DD91 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
 		B9E14E741D5BAD910080DD91 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/Quick/Quick.framework"; sourceTree = "<group>"; };
 		B9E14E771D5BAFC00080DD91 /* RADToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RADToolKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/RADToolKit/RADToolKit.framework"; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Bundle+Versioning_Spec.swift */,
+				B99EBADC2055E59C00A24DCB /* String+Extensions_Spec.swift */,
 				B99EBACA2055CD6E00A24DCB /* UserDefaults+Extensions_Spec.swift */,
 			);
 			name = foundation;
@@ -477,6 +480,7 @@
 				B99EBAD82055E0A700A24DCB /* NSAttributesString+Extensions_Spec.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Bundle+Versioning_Spec.swift in Sources */,
 				B99EBACC2055CE7B00A24DCB /* UserDefaults+Extensions_Spec.swift in Sources */,
+				B99EBADE2055E59F00A24DCB /* String+Extensions_Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
