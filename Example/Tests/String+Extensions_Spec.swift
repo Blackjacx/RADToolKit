@@ -52,7 +52,7 @@ class StringExtensionsSpec: QuickSpec {
 
             context("strip all but digits") {
 
-                let testString = " a123456789iuzfgfcv,mn ,vjfdughvb0kjnkm # \n"
+                let testString = "+ a123456789iuzfgfcv,mn ,vjfdughvb0kjnkm # \n"
 
                 it("removes all nondigit characters") {
                     let stripped = String.stripAllButDigits(fromText: testString)
