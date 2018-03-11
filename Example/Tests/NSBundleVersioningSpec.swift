@@ -1,5 +1,3 @@
-// https://github.com/Quick/Quick
-
 import UIKit
 import Foundation
 import Quick
