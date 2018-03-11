@@ -1,22 +1,10 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - Nimble (7.0.3)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - RADToolKit (0.9.3)
+  - RADToolKit (1.0.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - Nimble
-  - Nimble-Snapshots
   - Quick
   - RADToolKit (from `../`)
 
@@ -25,12 +13,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  RADToolKit: a5365af865992249c4ee268b455f9f0d349cec1e
+  RADToolKit: f6d06078e8b39c8d24ff99b2b6b0fb6aa1ac30ae
 
-PODFILE CHECKSUM: 60c294b0b29d9a109531a9ce52cd4bbdb6c9b0d2
+PODFILE CHECKSUM: 75acdc90e2507b7b883bab9cd528d822a84f3a24
 
 COCOAPODS: 1.4.0
