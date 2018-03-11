@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Bundle+Versioning_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Bundle+Versioning_Spec.swift */; };
 		B121DE6953ACED00C76E4E4F /* Pods_RADToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770ECFED30931B775B630F0F /* Pods_RADToolKit_Tests.framework */; };
 		B99EBACC2055CE7B00A24DCB /* UserDefaults+Extensions_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBACA2055CD6E00A24DCB /* UserDefaults+Extensions_Spec.swift */; };
+		B99EBAD82055E0A700A24DCB /* NSAttributesString+Extensions_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBAD62055E01000A24DCB /* NSAttributesString+Extensions_Spec.swift */; };
 		FEF9DD115EC37DB87C28CA37 /* Pods_RADToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F16DEE4FE73B1BF5277197D /* Pods_RADToolKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		B99EBAC42055CA7D00A24DCB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		B99EBAC62055CCA300A24DCB /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		B99EBACA2055CD6E00A24DCB /* UserDefaults+Extensions_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions_Spec.swift"; sourceTree = "<group>"; };
+		B99EBACD2055DE3B00A24DCB /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		B99EBAD62055E01000A24DCB /* NSAttributesString+Extensions_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributesString+Extensions_Spec.swift"; sourceTree = "<group>"; };
 		B9E14E731D5BAD910080DD91 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
 		B9E14E741D5BAD910080DD91 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/Quick/Quick.framework"; sourceTree = "<group>"; };
 		B9E14E771D5BAFC00080DD91 /* RADToolKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RADToolKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/RADToolKit-dyvmwkjqrsnguvcxktefxegnuqqf/Build/Products/Debug-iphonesimulator/RADToolKit/RADToolKit.framework"; sourceTree = "<group>"; };
@@ -174,6 +177,7 @@
 		B99EBAB92055C89700A24DCB /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B99EBAD22055DFC700A24DCB /* uikit */,
 				B99EBABA2055C89E00A24DCB /* foundation */,
 			);
 			name = extensions;
@@ -209,6 +213,7 @@
 		B99EBAC02055C9C100A24DCB /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B99EBACF2055DE8500A24DCB /* uikit */,
 				B99EBAC12055C9C100A24DCB /* foundation */,
 			);
 			path = extensions;
@@ -222,6 +227,22 @@
 				B99EBAC62055CCA300A24DCB /* UserDefaults+Extensions.swift */,
 			);
 			path = foundation;
+			sourceTree = "<group>";
+		};
+		B99EBACF2055DE8500A24DCB /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				B99EBACD2055DE3B00A24DCB /* NSAttributedString+Extensions.swift */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		B99EBAD22055DFC700A24DCB /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				B99EBAD62055E01000A24DCB /* NSAttributesString+Extensions_Spec.swift */,
+			);
+			name = uikit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99EBAD82055E0A700A24DCB /* NSAttributesString+Extensions_Spec.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Bundle+Versioning_Spec.swift in Sources */,
 				B99EBACC2055CE7B00A24DCB /* UserDefaults+Extensions_Spec.swift in Sources */,
 			);
