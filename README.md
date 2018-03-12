@@ -14,7 +14,7 @@
   <!-- <a href="https://github.com/Carthage/Carthage"><img alt="Carthage compatible" src="https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat"/></a> -->
   <a href="https://github.com/Blackjacx/RADToolKit/blob/master/LICENSE?raw=true"><img alt="License" src="https://img.shields.io/cocoapods/l/RADToolKit.svg?style=flat"/></a>
   <!-- <a href="https://codecov.io/gh/blackjacx/RADToolKit"><img alt="Codecov" src="https://codecov.io/gh/blackjacx/RADToolKit/branch/master/graph/badge.svg"/></a> -->
-  <a href="https://codebeat.co/projects/github-com-blackjacx-radtoolkit"><img alt="Codebeat" src="https://codebeat.co/badges/44539071-5029-4379-9d33-99dd721915c8" /></a>
+  <a href="https://codebeat.co/projects/github-com-blackjacx-radtoolkit-develop"><img alt="codebeat badge" src="https://codebeat.co/badges/521ec3c7-42d2-4823-bc36-cef6a829b314" /></a>
   <a href="http://cocoadocs.org/docsets/RADToolKit/"><img alt="Downloads" src="https://img.shields.io/cocoapods/dt/RADToolKit.svg?maxAge=3600&style=flat" /></a>
   <a href="https://www.paypal.me/STHEROLD"><img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg"/></a>
 </p>
