@@ -41,10 +41,29 @@ pod "RADToolKit"
 
 ## Components
 
-### Bundle+Versioning
+### Foundation
+
+#### Bundle+Versioning.swift
 
 The `Bundle` extension provides you with functions to obtain information like 
 versionString and appName which is specified in the Info.plist.
+
+#### String+Extensions.swift
+
+Support for subscripting, truncation / simple 
+replacements, length checks that handle optional strings so you don't need to 
+check for that and various random text generators.
+
+#### UserDefaults+Extensions.swift
+
+Support for accessing the user defaults via subscripts.
+
+### UIKit
+
+#### NSAttributedString+Extensions.swift
+
+Support for concatenating NSAttributedString objects while retaining the 
+attributes of the single components.
 
 ## Contribution
 
