@@ -6,7 +6,7 @@
 <h1 align="center">RADToolKit</h1>
 
 <p align="center">
-  <!-- <a href="https://github.com/Blackjacx/RADToolKit"><img alt="Build Status" src="https://www.bitrise.io/app/582435533da6e6e8/status.svg?token=txPO2FVRfVTh3wS57eoOuw&branch=develop"/></a> -->
+  <a href="https://github.com/Blackjacx/RADToolKit"><img alt="Build Status" src="https://www.bitrise.io/app/3f56d3184d9bfe3f/status.svg?token=njkTWQtcLiw7NPHxUQmZsA&branch=develop"/></a>
   <a href="http://cocoadocs.org/docsets/RADToolKit"><img alt="Version" src="https://cocoapod-badges.herokuapp.com/v/RADToolKit/badge.svg"/></a>
   <img alt="Xcode 9.0+" src="https://img.shields.io/badge/Xcode-9.0%2B-blue.svg"/>
   <img alt="iOS 9.0+" src="https://img.shields.io/badge/iOS-9.0%2B-blue.svg"/>
