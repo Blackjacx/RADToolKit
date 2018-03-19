@@ -41,6 +41,12 @@ pod "RADToolKit"
 
 ## Components
 
+### Cryptography
+
+Support for all kinds of cryptographic functions using the 
+[CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) dependency. Have a 
+look on this site to find out more about the framework possibilities.
+
 ### Foundation
 
 #### Bundle+Versioning.swift

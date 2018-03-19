@@ -12,11 +12,11 @@ extension String {
 
     // MARK: - Subscripts
 
-    subscript (i: Int) -> Character {
+    public subscript (i: Int) -> Character {
         return self[index(self.startIndex, offsetBy: i)]
     }
 
-    subscript (i: Int) -> String {
+    public subscript (i: Int) -> String {
         return String(self[i])
     }
 
@@ -68,7 +68,7 @@ extension String {
 
     // MARK: - Random Text Generation
 
-    private static let loremIpsumBaseString = "Lorem ipsum dolor sit amet, cons" +
+    static let loremIpsumBaseString = "Lorem ipsum dolor sit amet, cons" +
         "ectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, eg" +
         "estas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy " +
         "diam. Praesent mauris ante, elementum et, bibendum at, posuere sit ame" +
@@ -78,7 +78,7 @@ extension String {
         " gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna" +
         ", tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auct" +
         "or ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus" +
-        " sollicitudin metus eget eros."
+    " sollicitudin metus eget eros."
 
     public enum RandomStringMethod {
         case words(Int)
@@ -141,3 +141,4 @@ extension String {
         return result.joined(separator: " ")
     }
 }
+
