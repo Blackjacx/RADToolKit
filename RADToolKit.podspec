@@ -14,6 +14,7 @@ Tired of creating all the boilerplate code from scratch every time you start a n
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'RADToolKit/Classes/**/*'
+  s.dependency 'CryptoSwift'
   
   # s.resource_bundles = {
   #   'RADToolKit' => ['RADToolKit/Assets/*.png']
@@ -21,5 +22,4 @@ Tired of creating all the boilerplate code from scratch every time you start a n
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~>2.0'
 end

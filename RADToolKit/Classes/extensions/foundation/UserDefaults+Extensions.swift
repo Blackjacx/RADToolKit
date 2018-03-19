@@ -1,6 +1,6 @@
 //
 //  UserDefaults+Extensions.swift
-//  RADToolKit_Example
+//  RADToolKit
 //
 //  Created by Stefan Herold on 11.03.18.
 //  Copyright © 2018 CodingCobra. All rights reserved.

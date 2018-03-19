@@ -16,7 +16,7 @@ extension Bundle {
         guard let name = object(forInfoDictionaryKey: kCFBundleNameKey as String) as? String else {
             return ""
         }
-        return name
+        return String.trim(name)
     }
 
     public func versionString(shouldIncludeBundleVersion: Bool = true) -> String {
@@ -24,7 +24,8 @@ extension Bundle {
         var components: [String] = []
 
         if let marketingVersion = object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
-            components.append(marketingVersion)
+            let trimmed = String.trim(marketingVersion)
+            components.append(trimmed)
         }
         if shouldIncludeBundleVersion {
             components.append("(\(bundleVersion))")
@@ -40,6 +41,6 @@ extension Bundle {
         guard let version = object(forInfoDictionaryKey: kCFBundleVersionKey as String) as? String else {
             return "1"
         }
-        return version
+        return String.trim(version)
     }
 }
